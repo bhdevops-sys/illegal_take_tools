@@ -1,0 +1,84 @@
+{
+   "schema": 
+   {
+       "$schema": "http://json-schema.org/draft-04/schema#",
+       "title": "Resource use (resourceuse)",
+     
+       "type": "object",
+
+       "properties": 
+       {
+            "resourceuse_type": {
+                "type": "string",
+                "title": "Resource use type"
+            },
+            "resourceuse_user_type": {
+                "type": "string",
+                "title": "User type"
+            }, 
+            "resourceuse_observation": {
+                "type": "string",
+                "title": "Observation"
+            }, 
+             "resourceuse_area": {
+                "type": "string",
+                "title": "Area"
+            },
+            "resourceuse_users_sum": {
+                "type": "number",
+                "title": "Sum of users",
+                "minimum": 0
+            },   
+             "resourceuse_evidence_sum": {
+                "type": "number",
+                "title": "Sum of evidence",
+                "minimum": 0
+            },  
+             "resourceuse_action_taken":{
+                "type": "string",
+                "title": "Action taken"
+            },
+             "resourceuse_comments":{
+                "type": "string",
+                "title": "Comments"
+            }
+
+       }
+   },
+ "definition": [
+    {
+        "key":    "resourceuse_type",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "resourceuse_user_type",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "resourceuse_observation",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "resourceuse_area",
+        "htmlClass": "col-lg-6"
+    },
+    {
+        "key":    "resourceuse_users_sum",
+        "htmlClass": "col-lg-6"
+    }, 
+    
+    {
+        "key":    "resourceuse_evidence_sum",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "resourceuse_action_taken",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "resourceuse_comments",
+        "htmlClass": "col-lg-6"
+    }
+   
+ ]
+}

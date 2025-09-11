@@ -1,0 +1,76 @@
+{
+   "schema": 
+   {
+       "$schema": "http://json-schema.org/draft-04/schema#",
+       "title": "Mangrove logging (mangrovelogging)",
+     
+       "type": "object",
+
+       "properties": 
+       {
+            "mangrovelogging_evidence": {
+                "type": "string",
+                "title": "Evidence"
+            },
+             "mangrovelogging_area": {
+                "type": "string",
+                "title": "Area"
+            },  
+             "mangrovelogging_sum": {
+                "type": "number",
+                "title": "Sum of evidence",
+                "minimum": 0
+            },  
+             "mangrovelogging_arrestees": {
+                "type": "number",
+                "title": "Number of arrestees",
+                "minimum": 0
+            }, 
+            "mangrovelogging_escapees": {
+                "type": "number",
+                "title": "Number of escapees",
+                "minimum": 0
+            }, 
+            "mangrovelogging_action_taken":{
+                "type": "string",
+                "title": "Action taken"
+            },
+             "mangrovelogging_comments":{
+                "type": "string",
+                "title": "Comments"
+            }
+
+       }
+   },
+ "definition": [
+    {
+        "key":    "mangrovelogging_evidence",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "mangrovelogging_area",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "mangrovelogging_sum",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "mangrovelogging_arrestees",
+        "htmlClass": "col-lg-6"
+    },
+    {
+        "key":    "mangrovelogging_escapees",
+        "htmlClass": "col-lg-6"
+    }, 
+    
+    {
+        "key":    "mangrovelogging_action_taken",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "mangrovelogging_comments",
+        "htmlClass": "col-lg-6"
+    }
+ ]
+}

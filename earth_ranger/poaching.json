@@ -1,0 +1,92 @@
+{
+   "schema": 
+   {
+       "$schema": "http://json-schema.org/draft-04/schema#",
+       "title": "Poaching (poaching)",
+     
+       "type": "object",
+
+       "properties": 
+       {
+            "poaching_evidence": {
+                "type": "string",
+                "title": "Evidence"
+            },
+             "poaching_area": {
+                "type": "string",
+                "title": "Area"
+            },  
+            "poaching_species": {
+                "type": "string",
+                "title": "Species"
+            }, 
+            "poaching_estimated_days": {
+                "type": "string",
+                "title": "Estimated days since poaching"
+            }, 
+             "poaching_sum": {
+                "type": "number",
+                "title": "Sum of evidence",
+                "minimum": 0
+            },  
+             "poaching_arrestees": {
+                "type": "number",
+                "title": "Number of arrestees",
+                "minimum": 0
+            }, 
+            "poaching_escapees": {
+                "type": "number",
+                "title": "Number of escapees",
+                "minimum": 0
+            }, 
+            "poaching_action_taken":{
+                "type": "string",
+                "title": "Action taken"
+            },
+             "poaching_comments":{
+                "type": "string",
+                "title": "Comments"
+            }
+
+       }
+   },
+ "definition": [
+    {
+        "key":    "poaching_evidence",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "poaching_area",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "poaching_species",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "poaching_estimated_days",
+        "htmlClass": "col-lg-6"
+    },
+    {
+        "key":    "poaching_sum",
+        "htmlClass": "col-lg-6"
+    }, 
+    
+    {
+        "key":    "poaching_arrestees",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "poaching_escapees",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "poaching_action_taken",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "poaching_comments",
+        "htmlClass": "col-lg-6"
+    }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+   "schema": 
+   {
+       "$schema": "http://json-schema.org/draft-04/schema#",
+       "title": "Meeting with informer (poachedturtlessum)",
+     
+       "type": "object",
+
+       "properties": 
+       {
+            "poachedturtlessum_species": {
+                "type": "string",
+                "title": "Species"
+            },   
+            "poachedturtlessum_age": {
+                "type": "string",
+                "title": "Age"
+            },              
+            "poachedturtlessum_sum":{
+                "type": "number",
+                "title": "Sum",
+                "minimum": 0
+
+            }
+
+       }
+   },
+ "definition": [
+    {
+        "key":    "poachedturtlessum_species",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "poachedturtlessum_age",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key": "poachedturtlessum_sum",
+        "htmlClass": "col-lg-12"
+    }
+ ]
+}

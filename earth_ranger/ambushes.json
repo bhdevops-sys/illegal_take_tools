@@ -1,0 +1,75 @@
+{
+   "schema": 
+   {
+       "$schema": "http://json-schema.org/draft-04/schema#",
+       "title": "Ambushes (ambushes)",
+     
+       "type": "object",
+
+       "properties": 
+       {
+            "ambushes_target": {
+                "type": "string",
+                "title": "Ambush Target"
+            },
+             "ambushes_area": {
+                "type": "string",
+                "title": "Area"
+            },  
+             "ambushes_recoveries": {
+                "type": "string",
+                "title": "Recovered items"
+            },  
+             "ambushes_recoveries_sum": {
+                "type": "string",
+                "title": "Sum of recoveries"
+            },  
+             "ambushes_arrestees": {
+                "type": "number",
+                "title": "Number of arrestees",
+                "minimum": 0
+            }, 
+            "ambushes_escapees": {
+                "type": "number",
+                "title": "Number of escapees",
+                "minimum": 0
+            }, 
+            "ambushes_comments":{
+                "type": "string",
+                "title": "Comments"
+            }
+
+       }
+   },
+ "definition": [
+    {
+        "key":    "ambushes_target",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "ambushes_area",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "ambushes_recoveries",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "ambushes_recoveries_sum",
+        "htmlClass": "col-lg-6"
+    },
+    {
+        "key":    "ambushes_arrestees",
+        "htmlClass": "col-lg-6"
+    }, 
+    
+    {
+        "key":    "ambushes_escapees",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "ambushes_comments",
+        "htmlClass": "col-lg-6"
+    }
+ ]
+}

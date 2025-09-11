@@ -1,0 +1,106 @@
+{
+   "schema": 
+   {
+       "$schema": "http://json-schema.org/draft-04/schema#",
+       "title": "Arrest Report (arrest_rep)",
+     
+       "type": "object",
+
+       "properties": 
+       {
+            "arrestrep_name": {
+                "type": "string",
+                "title": "Name of Arrestee"
+            },   
+            "arrestrep_age": {
+                "type": "number",
+                "title": "Age",
+                "minimum": 0
+            },                      
+            "arrestrep_dateofbirth": {
+                "type": "string",
+                "title": "Date of Birth"
+            },              
+            "arrestrep_villagename":{
+                "type": "string",
+                "title": "Village Name"
+            },
+            "arrestrep_nationality":{
+                "type": "string",
+                "title": "Nationality",
+               "enum": {{enum___arrestrep_nationality___values}},
+               "enumNames": {{enum___arrestrep_nationality___names}}   
+            },
+            "arrestrep_reaonforarrest":{
+                "type": "string",
+                "title": "Reason for Arrest",
+               "enum": {{enum___arrestrep_reasonforarrest___values}},
+               "enumNames": {{enum___arrestrep_reasonforarrest___names}}                  
+            },
+            "arrestrep_timeofarrest":{
+                "type": "string",
+                "title": "Time of Arrest"
+            },
+            "arrestrep_placeofarrest":{
+                "type": "string",
+                "title": "Place of Arrest"
+            },
+            "arrestrep_arrestingranger":{
+                "type": "string",
+                "title": "Arresting Ranger"
+            },
+            "arrestrep_witness":{
+                "type": "string",
+                "title": "Witness (may be multiple)"
+            }
+
+       }
+   },
+ "definition": [
+    {
+        "key":    "arrestrep_name",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "arrestrep_age",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key": "arrestrep_dateofbirth",
+        "fieldHtmlClass": "date-time-picker json-schema",
+        "readonly": false,
+        "htmlClass": "col-lg-6"
+    },
+    {
+        "key":    "arrestrep_villagename",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "arrestrep_nationality",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "arrestrep_reaonforarrest",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key": "arrestrep_timeofarrest",
+        "fieldHtmlClass": "date-time-picker json-schema",
+        "readonly": false,
+        "htmlClass": "col-lg-6"
+    },
+    {
+        "key":    "arrestrep_placeofarrest",
+        "htmlClass": "col-lg-6"
+    }, 
+    
+    {
+        "key":    "arrestrep_arrestingranger",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "arrestrep_witness",
+        "htmlClass": "col-lg-6"
+    }
+ ]
+}

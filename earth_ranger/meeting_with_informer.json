@@ -1,0 +1,40 @@
+{
+   "schema": 
+   {
+       "$schema": "http://json-schema.org/draft-04/schema#",
+       "title": "Meeting with informer (meetingwithinformer)",
+     
+       "type": "object",
+
+       "properties": 
+       {
+            "meetingwithinformer_id": {
+                "type": "string",
+                "title": "Informer ID"
+            },   
+            "meetingwithinformer_area": {
+                "type": "string",
+                "title": "Area Name"
+            },              
+            "meetingwithinformer_comments":{
+                "type": "string",
+                "title": "Comments"
+            }
+
+       }
+   },
+ "definition": [
+    {
+        "key":    "meetingwithinformer_id",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key":    "meetingwithinformer_area",
+        "htmlClass": "col-lg-6"
+    }, 
+    {
+        "key": "meetingwithinformer_comments",
+        "htmlClass": "col-lg-12"
+    }
+ ]
+}
