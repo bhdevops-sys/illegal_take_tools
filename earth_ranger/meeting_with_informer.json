@@ -10,11 +10,15 @@
        {
             "meetingwithinformer_id": {
                 "type": "string",
-                "title": "Informer ID"
+                "title": "Informer ID",
+                 "enum": {{enum___informer_id___values}},
+               "enumNames": {{enum___informer_id___names}}   
             },   
-            "meetingwithinformer_area": {
+            "area": {
                 "type": "string",
-                "title": "Area Name"
+                "title": "Area Name",
+                 "enum": {{enum___area___values}},
+               "enumNames": {{enum___area___names}}   
             },              
             "meetingwithinformer_comments":{
                 "type": "string",
@@ -29,7 +33,7 @@
         "htmlClass": "col-lg-6"
     }, 
     {
-        "key":    "meetingwithinformer_area",
+        "key":    "area",
         "htmlClass": "col-lg-6"
     }, 
     {
