@@ -8,21 +8,29 @@
 
        "properties": 
        {
-            "poaching_evidence": {
+            "evidence": {
                 "type": "string",
-                "title": "Evidence"
+                "title": "Poaching evidence",
+                 "enum": {{enum___evidence___values}},
+               "enumNames": {{enum___evidence___names}}   
             },
-             "poaching_area": {
+             "area": {
                 "type": "string",
-                "title": "Area"
+                "title": "Area",
+                 "enum": {{enum___area___values}},
+               "enumNames": {{enum___area___names}}   
             },  
-            "poaching_species": {
+            "species": {
                 "type": "string",
-                "title": "Species"
+                "title": "Species",
+                 "enum": {{enum___species___values}},
+               "enumNames": {{enum___species___names}}
             }, 
             "poaching_estimated_days": {
                 "type": "string",
-                "title": "Estimated days since poaching"
+                "title": "Estimated days since poaching",
+                 "enum": {{enum___day_since_poaching___values}},
+               "enumNames": {{enum___day_since_poaching___names}}
             }, 
              "poaching_sum": {
                 "type": "number",
@@ -41,7 +49,9 @@
             }, 
             "poaching_action_taken":{
                 "type": "string",
-                "title": "Action taken"
+                "title": "Action taken",
+                 "enum": {{enum___action_taken___values}},
+               "enumNames": {{enum___action_taken___names}}
             },
              "poaching_comments":{
                 "type": "string",
@@ -52,15 +62,15 @@
    },
  "definition": [
     {
-        "key":    "poaching_evidence",
+        "key":    "evidence",
         "htmlClass": "col-lg-6"
     }, 
     {
-        "key":    "poaching_area",
+        "key":    "area",
         "htmlClass": "col-lg-6"
     }, 
     {
-        "key":    "poaching_species",
+        "key":    "species",
         "htmlClass": "col-lg-6"
     }, 
     {
@@ -86,7 +96,7 @@
     }, 
     {
         "key":    "poaching_comments",
-        "htmlClass": "col-lg-6"
+        "htmlClass": "col-lg-12"
     }
  ]
 }
