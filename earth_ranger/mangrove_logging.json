@@ -8,13 +8,17 @@
 
        "properties": 
        {
-            "mangrovelogging_evidence": {
+            "evidence": {
                 "type": "string",
-                "title": "Evidence"
+                "title": "Evidence found",
+                "enum": {{enum___evidence___values}},
+               "enumNames": {{enum___evidence___names}}
             },
-             "mangrovelogging_area": {
+             "area": {
                 "type": "string",
-                "title": "Area"
+                "title": "Area",
+                 "enum": {{enum___area___values}},
+               "enumNames": {{enum___area___names}}
             },  
              "mangrovelogging_sum": {
                 "type": "number",
@@ -31,9 +35,11 @@
                 "title": "Number of escapees",
                 "minimum": 0
             }, 
-            "mangrovelogging_action_taken":{
+            "action_taken":{
                 "type": "string",
-                "title": "Action taken"
+                "title": "Action taken",
+                "enum": {{enum___action_taken___values}},
+                "enumNames": {{enum___action_taken___names}}
             },
              "mangrovelogging_comments":{
                 "type": "string",
@@ -44,11 +50,11 @@
    },
  "definition": [
     {
-        "key":    "mangrovelogging_evidence",
+        "key":    "evidence",
         "htmlClass": "col-lg-6"
     }, 
     {
-        "key":    "mangrovelogging_area",
+        "key":    "area",
         "htmlClass": "col-lg-6"
     }, 
     {
@@ -65,7 +71,7 @@
     }, 
     
     {
-        "key":    "mangrovelogging_action_taken",
+        "key":    "action_taken",
         "htmlClass": "col-lg-6"
     }, 
     {
