@@ -12,17 +12,22 @@
                 "type": "string",
                 "title": "Ambush Target"
             },
-             "ambushes_area": {
+             "area": {
                 "type": "string",
-                "title": "Area"
+                "title": "Area",
+                 "enum": {{enum___area___values}},
+               "enumNames": {{enum___area___names}}   
             },  
-             "ambushes_recoveries": {
+             "recoveries": {
                 "type": "string",
-                "title": "Recovered items"
+                "title": "Recovered items",
+                 "enum": {{enum___evidence___values}},
+               "enumNames": {{enum___evidence___names}} 
             },  
              "ambushes_recoveries_sum": {
-                "type": "string",
-                "title": "Sum of recoveries"
+                "type": "number",
+                "title": "Sum of recoveries",
+                "minimum":0
             },  
              "ambushes_arrestees": {
                 "type": "number",
@@ -47,11 +52,11 @@
         "htmlClass": "col-lg-6"
     }, 
     {
-        "key":    "ambushes_area",
+        "key":    "area",
         "htmlClass": "col-lg-6"
     }, 
     {
-        "key":    "ambushes_recoveries",
+        "key":    "recoveries",
         "htmlClass": "col-lg-6"
     }, 
     {
