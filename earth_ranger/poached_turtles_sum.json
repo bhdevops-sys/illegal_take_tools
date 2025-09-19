@@ -8,13 +8,17 @@
 
        "properties": 
        {
-            "poachedturtlessum_species": {
+            "species": {
                 "type": "string",
-                "title": "Species"
+                "title": "Species",
+                 "enum": {{enum___species___values}},
+               "enumNames": {{enum___species___names}}  
             },   
-            "poachedturtlessum_age": {
+            "poachedturtlessum_mortality_age": {
                 "type": "string",
-                "title": "Age"
+                "title": "Age",
+                 "enum": {{enum___mortality_age___values}},
+               "enumNames": {{enum___mortality_age____names}}  
             },              
             "poachedturtlessum_sum":{
                 "type": "number",
@@ -27,11 +31,11 @@
    },
  "definition": [
     {
-        "key":    "poachedturtlessum_species",
+        "key":    "species",
         "htmlClass": "col-lg-6"
     }, 
     {
-        "key":    "poachedturtlessum_age",
+        "key":    "poachedturtlessum_mortality_age",
         "htmlClass": "col-lg-6"
     }, 
     {
