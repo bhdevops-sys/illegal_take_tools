@@ -10,19 +10,33 @@
        {
             "resourceuse_type": {
                 "type": "string",
-                "title": "Resource use type"
+                "title": "Resource use type",
+                 "enum": {{enum___resourceuse_type___values}},
+               "enumNames": {{enum___resourceuse_type___names}} 
             },
             "resourceuse_user_type": {
                 "type": "string",
-                "title": "User type"
+                "title": "User type",
+                 "enum": {{enum___user_type___values}},
+               "enumNames": {{enum___user_type___names}} 
             }, 
             "resourceuse_observation": {
                 "type": "string",
-                "title": "Observation"
+                "title": "Observation",
+                 "enum": {{enum___observation___values}},
+               "enumNames": {{enum___observation___names}}  
             }, 
-             "resourceuse_area": {
+            "evidence": {
                 "type": "string",
-                "title": "Area"
+                "title": "Evidence",
+                "enum": {{enum___evidence___values}},
+               "enumNames": {{enum___evidence___names}}
+             },
+             "area": {
+                "type": "string",
+                "title": "Area",
+                 "enum": {{enum___area___values}},
+               "enumNames": {{enum___area___names}}  
             },
             "resourceuse_users_sum": {
                 "type": "number",
@@ -36,7 +50,9 @@
             },  
              "resourceuse_action_taken":{
                 "type": "string",
-                "title": "Action taken"
+                "title": "Action taken",
+                 "enum": {{enum___action_taken___values}},
+               "enumNames": {{enum___action_taken___names}}  
             },
              "resourceuse_comments":{
                 "type": "string",
@@ -57,9 +73,12 @@
     {
         "key":    "resourceuse_observation",
         "htmlClass": "col-lg-6"
+    },
+    {"key":    "evidence",
+        "htmlClass": "col-lg-6"
     }, 
     {
-        "key":    "resourceuse_area",
+        "key":    "area",
         "htmlClass": "col-lg-6"
     },
     {
