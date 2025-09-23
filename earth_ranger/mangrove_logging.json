@@ -5,6 +5,8 @@
        "title": "Mangrove logging (mangrovelogging)",
      
        "type": "object",
+       "required": ["evidence", "area", "mangrovelogging_sum", 
+       "mangrovelogging_arrestees", "mangrovelogging_escapees", "action_taken"],
 
        "properties": 
        {
@@ -80,3 +82,4 @@
     }
  ]
 }
+
