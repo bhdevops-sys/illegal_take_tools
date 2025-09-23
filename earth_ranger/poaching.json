@@ -5,6 +5,8 @@
        "title": "Poaching (poaching)",
      
        "type": "object",
+       "required": ["evidence", "area", "species", "poaching_estimated_days", "poaching_sum", 
+       "poaching_arrestees", "poaching_escapees", "poaching_action_taken"],
 
        "properties": 
        {
@@ -100,3 +102,4 @@
     }
  ]
 }
+
