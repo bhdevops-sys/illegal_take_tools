@@ -5,6 +5,8 @@
        "title": "Ambushes (ambushes)",
      
        "type": "object",
+       "required": ["ambushes_target", "area", "recoveries", "ambushes_recoveries_sum", 
+       "ambushes_arrestees", "ambushes_escapees"],
 
        "properties": 
        {
@@ -78,3 +80,4 @@
     }
  ]
 }
+
