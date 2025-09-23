@@ -5,6 +5,10 @@
        "title": "Meeting with informer (poachedturtlessum)",
      
        "type": "object",
+       "required": ["arrestrep_name", "arrestrep_age", "arrestrep_dateofbirth", 
+       "area", "arrestrep_nationality", "arrestrep_reaonforarrest", 
+       "arrestrep_timeofarrest", "arrestrep_placeofarrest", "arrestrep_arrestingranger",
+        "arrestrep_witness"],
 
        "properties": 
        {
@@ -44,3 +48,4 @@
     }
  ]
 }
+
