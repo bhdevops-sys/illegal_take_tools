@@ -5,6 +5,7 @@
        "title": "Meeting with informer (meetingwithinformer)",
      
        "type": "object",
+       "required": ["meetingwithinformer_id", "area"],
 
        "properties": 
        {
@@ -42,3 +43,4 @@
     }
  ]
 }
+
