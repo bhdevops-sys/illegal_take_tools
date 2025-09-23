@@ -5,6 +5,9 @@
        "title": "Resource use (resourceuse)",
      
        "type": "object",
+       "required": ["resourceuse_type", "resourceuse_user_type", "resourceuse_observation",
+       "evidence", "area", "resourceuse_users_sum", "resourceuse_evidence_sum",
+       "resourceuse_action_taken"],
 
        "properties": 
        {
@@ -101,3 +104,4 @@
    
  ]
 }
+
