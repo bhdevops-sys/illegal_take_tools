@@ -5,6 +5,7 @@
        "title": "Meeting with informer (poachedturtlessum)",
      
        "type": "object",
+       "required": ["species", "poachedturtlessum_mortality_age", "poachedturtlessum_sum"],
 
        "properties": 
        {
@@ -44,3 +45,4 @@
     }
  ]
 }
+
